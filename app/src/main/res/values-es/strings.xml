@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Sólo Java</string>
+    <!-- Text for order button to click by user to confirm their order [CHAR LIMIT=8] -->
+    <string name="order_button">Ordenar</string>
+    <!-- Header text for the list of toppings [CHAR LIMIT=10] -->
+    <string name="toppings_header_text">Ingredientes</string>
+    <!-- Text of whipped cream, list of additions to coffee [CHAR LIMIT=20]-->
+    <string name="whipped_cream">Crema batida</string>
+    <!-- Text of chocolate, list of additions to coffee [CHAR LIMIT=20]-->
+    <string name="chocolate">Chocolate</string>
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=12]-->
+    <string name="name_hint">Nombre</string>
+    <!-- Header text for the quantity value [CHAR LIMIT=12]-->
+    <string name="quantity_header_text">Cantidad</string>
+    <!-- Customer name for the order summary in format "Name: Lucy" where Lucy is customer name [CHAR LIMIT=NONE]-->
+    <string name="order_summary_user_name">Nombre: <xliff:g id="name" example="Lucy">%s</xliff:g></string>
+    <!-- Whipped Cream addition information for the order summary in format "Whipped Cream: true" where true is customer choice [CHAR LIMIT=30]-->
+    <string name="order_summary_whipped_cream">Agregue la crema batida? <xliff:g id="addWhippedCream" example="true">%b</xliff:g></string>
+    <!-- Chocolate addition information for the order summary in format "has_chocolate: true" where true is customer choice [CHAR LIMIT=30]-->
+    <string name="order_summary_chocolate">Agregue el chocolate? <xliff:g id="addChocolate" example="true">%b</xliff:g></string>
+    <!-- Quantity information for the order summary in format "Quantity: 2" where 2 is customer order quantity [CHAR LIMIT=30]-->
+    <string name="order_summary_quantity">Cantidad: <xliff:g id="quantity" example="2">%d</xliff:g></string>
+    <!-- Price information for the order summary in format "Total: 10$" where 10$ is price based on topping and order quantity [CHAR LIMIT=30]-->
+    <string name="order_summary_price">Total: <xliff:g id="price" example="10$">%s</xliff:g></string>
+    <!--Thanks message for the order summary on the end [CHAR LIMIT=12]-->
+    <string name="thank_you">¡Gracias!</string>
+</resources>

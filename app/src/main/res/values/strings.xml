@@ -1,0 +1,40 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Just Java</string>
+    <!-- Text for order button to click by user to confirm their order [CHAR LIMIT=8] -->
+    <string name="order_button">Order</string>
+    <!-- Header text for the list of toppings [CHAR LIMIT=10] -->
+    <string name="toppings_header_text">Toppings</string>
+    <!-- Text of whipped cream, list of additions to coffee [CHAR LIMIT=20]-->
+    <string name="whipped_cream">Whipped cream</string>
+    <!-- Text of chocolate, list of additions to coffee [CHAR LIMIT=20]-->
+    <string name="chocolate">Chocolate</string>
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=12]-->
+    <string name="name_hint">Name</string>
+    <!-- Header text for the quantity value [CHAR LIMIT=12]-->
+    <string name="quantity_header_text">Quantity</string>
+    <!-- quantity value [CHAR LIMIT=5]-->
+    <string name="initial_quantity_text" translatable="false">1</string>
+
+    <!--Header for order description/summary [CHAR LIMIT=20]-->
+    <!--<string name="order_header_text">Order Summary</string>-->
+    <!--Order summary text [CHAR LIMIT=20]-->
+    <!--<string name="order_summary_text">$5</string>-->
+
+    <!--Button increase [CHAR LIMIT=3]-->
+    <string name="add_button" translatable="false">+</string>
+    <!--Button decrease [CHAR LIMIT=3]-->
+    <string name="subtract_button" translatable="false">-</string>
+    <!-- Customer name for the order summary in format "Name: Lucy" where Lucy is customer name [CHAR LIMIT=NONE]-->
+    <string name="order_summary_user_name">Name: <xliff:g id="name" example="Lucy">%s</xliff:g> </string>
+    <!-- Whipped Cream addition information for the order summary in format "Whipped Cream: true" where true is customer choice [CHAR LIMIT=30]-->
+    <string name="order_summary_whipped_cream">Whipped Cream: <xliff:g id="addWhippedCream" example="true">%b</xliff:g> </string>
+    <!-- Chocolate addition information for the order summary in format "has_chocolate: true" where true is customer choice [CHAR LIMIT=30]-->
+    <string name="order_summary_chocolate">Chocolate: <xliff:g id="addChocolate" example="true">%b</xliff:g> </string>
+    <!-- Quantity information for the order summary in format "Quantity: 1" where 1 is customer order quantity [CHAR LIMIT=30]-->
+    <string name="order_summary_quantity">Quantity: <xliff:g id="quantity" example="1">%d</xliff:g> </string>
+    <!-- Price information for the order summary in format "Total: 10$" where 10$ is price based on topping and order quantity [CHAR LIMIT=30]-->
+    <string name="order_summary_price">Total: <xliff:g id="price" example="10$">%s</xliff:g>$</string>
+    <!--Thanks message for the order summary on the end [CHAR LIMIT=12]-->
+    <string name="thank_you">Thank You!</string>
+</resources>
